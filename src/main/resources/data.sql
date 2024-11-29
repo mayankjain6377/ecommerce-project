@@ -28,3 +28,22 @@ VALUES ('Electric Kettle', '1.5L electric kettle with auto shut-off feature', 'H
 
 INSERT INTO Product (name, description, brand, price, category, relese_date, product_available, stock_quantity, image_name, image_type, image_date)
 VALUES ('Bluetooth Speaker', 'Portable Bluetooth speaker with 10-hour battery life', 'SoundMax', 89.99, 'Electronics', '2023-08-12', false, 0, NULL, NULL, NULL);
+
+
+
+--
+--# Application Information
+--spring.application.name=ecom-proj
+--
+--# MySQL Database Configuration
+--spring.datasource.url=jdbc:mysql://localhost:3306/ecom_proj
+--spring.datasource.username=root
+--spring.datasource.password=Mayankjain@6377
+--
+--# JPA Properties
+--spring.jpa.show-sql=true
+--spring.jpa.hibernate.ddl-auto=update
+--spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+--
+--# Optional: Defer initialization of the datasource for smooth startup
+--spring.jpa.defer-datasource-initialization=true

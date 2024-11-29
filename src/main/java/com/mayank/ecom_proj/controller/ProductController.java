@@ -28,7 +28,7 @@ public class ProductController {
     public ResponseEntity<Product> getProducts(@PathVariable int id) {
         Product product = service.getProductById(id);
         if (product != null) {
-            return new ResponseEntity<>(service.getProductById(id), HttpStatus.OK);
+            return new ResponseEntity<>(product, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
